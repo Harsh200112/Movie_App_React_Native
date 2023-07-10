@@ -40,6 +40,7 @@ return (
                     return (
                         <Anim.View key={index} style={{transform:[{translateX}]}} >
                             <Image
+                                blurRadius={1.1}
                                 source={{uri:imageback(item.backdrop_path)}}
                                 style={{width, height:backdrop_height}}/>
                             

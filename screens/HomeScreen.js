@@ -69,13 +69,13 @@ export default function HomeScreen() {
             <View className=" bg-neutral-800 items-center p-3 absolute w-full bottom-0">
                 <View className="flex-row justify-between">
                     <TouchableOpacity onPress={()=>navigation.navigate('Home')} className="mr-20">
-                        <Image source={require('../assets/homefilled.png')} className="w-10 h-10"/>
+                        <Image source={require('../assets/homefilled.png')} className="w-8 h-8"/>
                     </TouchableOpacity >
                     <TouchableOpacity onPress={()=>navigation.navigate('Search')} className="mr-20">
-                        <Image source={require('../assets/searchoutline.png')} className="w-9 h-9"/>
+                        <Image source={require('../assets/searchoutline.png')} className="w-7 h-7"/>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={()=>navigation.navigate('Favourite')}>
-                        <Image source={require('../assets/favouriteoutline.png')} className="w-9 h-9"/>
+                        <Image source={require('../assets/favouriteoutline.png')} className="w-7 h-7"/>
                     </TouchableOpacity>
                 </View>
             </View>
