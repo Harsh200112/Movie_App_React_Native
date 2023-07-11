@@ -16,7 +16,7 @@ export default function TrendingMovies({data}) {
     const handleClick = (item)=>{
         navigation.navigate('Movie', item);
     }
-    const size = width*0.7;
+    const size = width*0.75;
     const scrollX = React.useRef(new Anim.Value(0)).current;
     const spacer = (width-size)/2;
 return (
@@ -40,7 +40,6 @@ return (
                     return (
                         <Anim.View key={index} style={{transform:[{translateX}]}} >
                             <Image
-                                blurRadius={1.1}
                                 source={{uri:imageback(item.backdrop_path)}}
                                 style={{width, height:backdrop_height}}/>
                             
