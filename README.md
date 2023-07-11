@@ -6,13 +6,13 @@ A React Native app which uses TMDB Api to fetch movie details and other features
 ## Features
 
 * **Carousel Effect**
-  ![Carousel](https://github.com/Harsh200112/Medront_Assignment/issues/1#issue-1798162970)
+  [Carousel](https://github.com/Harsh200112/Medront_Assignment/issues/1#issue-1798162970)
 * **Like Movies And Cast**
-  ![Like Feature](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630201324)
+  [Like Feature](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630201324)
 * **Search Movies**
-  ![Search Movies](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630201751)
+  [Search Movies](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630201751)
 * **Other Features**
-  ![Others](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630202780)
+  [Others](https://github.com/Harsh200112/Medront_Assignment/issues/1#issuecomment-1630202780)
 
 ## Dependencies
 
