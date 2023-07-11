@@ -3,6 +3,12 @@
 
 A React Native app which uses TMDB Api to fetch movie details and other features to display on the app.
 
+## Features
+
+* **Carousel Effect**
+  [Carousel](https://github.com/Harsh200112/Medront_Assignment/issues/1#issue-1798162970)
+* 
+
 
 ## Dependencies
 
