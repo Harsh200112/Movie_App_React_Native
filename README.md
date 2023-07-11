@@ -94,6 +94,12 @@ A React Native app which uses TMDB Api to fetch movie details and other features
 
     For More Details Visit:- [Native Wind](https://www.nativewind.dev/quick-starts/react-native-cli)
 
+* **"react-native-linear-gradient"**
+  This dependency has been used to give a gradient to backdrop poster of a movie to make it look beautiful.
+  ```bash
+  npm i react-native-linear-gradient
+  ```
+
 * **"react": "18.1.0" And "react-native": "0.70.12"**
 
     These two are the versions of react and react-native that have been used to make this application.
