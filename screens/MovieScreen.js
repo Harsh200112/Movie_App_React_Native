@@ -95,7 +95,7 @@ export default function MovieScreen() {
         </View>
 
         <Image
-                source={item.poster_path!=null?{uri: imageback(item.backdrop_path)} : require('../assets/dummyposter.png')}
+                source={item.backdrop_path!=null?{uri: imageback(item.backdrop_path)} : (item.poster_path?{uri:image500(item.poster_path)}:require('../assets/dummyposter.png')) }
                 style={{
                     width:width,
                     height:height*0.55

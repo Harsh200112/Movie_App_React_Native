@@ -3,6 +3,8 @@ import React from 'react'
 import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native'
 import { image185, image500 } from '../api/moviedb';
 
+
+// A Function to return the List of cast that worked in a particular movie in a scrollable view
 export default function Cast({cast, navigation}) {
   return (
     <View className="my-6">

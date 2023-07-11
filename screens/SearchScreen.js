@@ -63,7 +63,7 @@ export default function SearchScreen() {
                                 <View key={index}>
                                     <TouchableOpacity onPress={()=>navigation.navigate('Movie',item)}>
                                         <Image
-                                            source={{uri: image500(item.poster_path)} || require('../assets/dummyposter.png')}
+                                            source={item.poster_path?{uri: image500(item.poster_path)} : require('../assets/dummyposter.png')}
                                             style={{height:height*0.3, width:width*0.4}}
                                             className="rounded-3xl mx-2"/>
                                     </TouchableOpacity>
